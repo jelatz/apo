@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!-- animate on scroll cdn-->
+
+    <title>Animation Website</title>
+</head>
+<body>
+    <header>
+        <img src="" alt="Logo" id="logo">
+        <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/products">Products</a>
+        <a href="/contact-us">Contact Us</a>
+        </nav>
+    </header>
+    <div class="hero-container">
+        <h1 data-aos="fade-up-left" data-aos-duration="900" data-aos-easing="linear">An animated element</h1>
+    </div>
+
+    <div class="main-container">
+        <div>
+            <div data-aos="zoom-in-left" data-aos-duration="800" data-aos-easing="ease-in" class="main-box">
+                <h2>This is content 1</h2>
+            </div>
+            <div class="main-box" data-aos="zoom-in-right" data-aos-duration="800" data-aos-easing="ease-in">
+                <h2>This is content 2</h2>
+            </div>
+            <div class="main-box" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1200">
+                <h2>This is content 3</h2>
+            </div>
+            <div class="main-box" data-aos="fade-down" data-aos="linear" data-aos-duration="1200">
+                <h2>This is content 4</h2>
+            </div>
+            <div class="main-box" data-aos="zoom-out-up" data-aos-duration="800" data-aos-easing="ease-in">
+                <h2>This is content 5</h2>
+                <img src="" alt="Laptop Image" data-aos="fade-up-left" data-aos-duration="1200" data-aos-easing="ease-in">
+            </div>
+        </div>
+    </div>
+
+    <script>
+          AOS.init();
+    </script>
+</body>
+
+</html>
